@@ -1,0 +1,62 @@
+# Auto-generated Flux input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-07-28T16:34:18.076
+
+# User-defined execution parameters
+[fluxcalib]
+  extinct_correct = False  # Set to True if your SENSFUNC derived with the UVIS algorithm
+# Please add your SENSFUNC file name below before running pypeit_flux_calib
+
+# Data block 
+flux read
+ path Science
+                                                    filename | sensfile
+   spec1d_N20200102S0074-GD71_GNIRS_20191231T224213.756.fits | ../sens_N20200102S0074-GD71_GNIRS_20191231T224213.756.fits        
+spec1d_cN20200128S0236-Moutai_GNIRS_20200128T004226.310.fits |         
+spec1d_cN20200223S0015-Moutai_GNIRS_20200223T043915.013.fits |         
+spec1d_cN20200219S0039-Moutai_GNIRS_20200219T055022.127.fits |         
+spec1d_cN20200124S0027-Moutai_GNIRS_20200124T051754.660.fits |         
+spec1d_cN20200128S0258-Moutai_GNIRS_20200128T022724.460.fits |         
+spec1d_cN20200205S0080-Moutai_GNIRS_20200205T052434.386.fits |         
+spec1d_cN20200205S0076-Moutai_GNIRS_20200205T050304.703.fits |         
+spec1d_cN20200205S0102-Moutai_GNIRS_20200205T071000.803.fits |         
+spec1d_cN20200124S0045-Moutai_GNIRS_20200124T063126.343.fits |         
+spec1d_cN20200124S0050-Moutai_GNIRS_20200124T065820.076.fits |         
+spec1d_cN20200124S0028-Moutai_GNIRS_20200124T052318.776.fits |         
+spec1d_cN20200124S0023-Moutai_GNIRS_20200124T045618.776.fits |         
+spec1d_cN20200219S0035-Moutai_GNIRS_20200219T052802.210.fits |         
+spec1d_cN20200124S0024-Moutai_GNIRS_20200124T050148.676.fits |         
+spec1d_cN20200205S0091-Moutai_GNIRS_20200205T061832.203.fits |         
+spec1d_cN20200128S0240-Moutai_GNIRS_20200128T010356.276.fits |         
+spec1d_cN20200128S0239-Moutai_GNIRS_20200128T005832.093.fits |         
+spec1d_cN20200128S0243-Moutai_GNIRS_20200128T012002.893.fits |         
+spec1d_cN20200205S0081-Moutai_GNIRS_20200205T052958.353.fits |         
+spec1d_cN20200124S0046-Moutai_GNIRS_20200124T063650.476.fits |         
+spec1d_cN20200205S0096-Moutai_GNIRS_20200205T064526.270.fits |         
+spec1d_cN20200219S0034-Moutai_GNIRS_20200219T052238.310.fits |         
+spec1d_cN20200128S0235-Moutai_GNIRS_20200128T003702.626.fits |         
+spec1d_cN20200205S0077-Moutai_GNIRS_20200205T050828.620.fits |         
+spec1d_cN20200205S0088-Moutai_GNIRS_20200205T060226.370.fits |         
+spec1d_cN20200128S0254-Moutai_GNIRS_20200128T020553.776.fits |         
+   spec1d_N20200102S0075-GD71_GNIRS_20191231T224213.756.fits |         
+ spec1d_N20200102S0009-Moutai_GNIRS_20191231T224213.756.fits |         
+spec1d_cN20200124S0049-Moutai_GNIRS_20200124T065255.943.fits |         
+ spec1d_N20200102S0008-Moutai_GNIRS_20191231T224213.756.fits |         
+spec1d_cN20200205S0073-Moutai_GNIRS_20200205T044655.653.fits |         
+spec1d_cN20200205S0072-Moutai_GNIRS_20200205T044131.620.fits |         
+spec1d_cN20200223S0016-Moutai_GNIRS_20200223T044438.780.fits |         
+spec1d_cN20200219S0042-Moutai_GNIRS_20200219T060715.543.fits |         
+spec1d_cN20200219S0043-Moutai_GNIRS_20200219T061239.677.fits |         
+spec1d_cN20200205S0087-Moutai_GNIRS_20200205T055702.436.fits |         
+spec1d_cN20200205S0095-Moutai_GNIRS_20200205T064002.120.fits |         
+spec1d_cN20200128S0252-Moutai_GNIRS_20200128T015509.160.fits |         
+spec1d_cN20200205S0092-Moutai_GNIRS_20200205T062356.153.fits |         
+spec1d_cN20200128S0256-Moutai_GNIRS_20200128T021638.776.fits |         
+ spec1d_N20200102S0016-Moutai_GNIRS_20191231T224213.756.fits |         
+ spec1d_N20200102S0017-Moutai_GNIRS_20191231T224213.756.fits |         
+spec1d_cN20200205S0103-Moutai_GNIRS_20200205T071536.370.fits |         
+spec1d_cN20200128S0244-Moutai_GNIRS_20200128T012526.976.fits |         
+spec1d_cN20200219S0038-Moutai_GNIRS_20200219T054458.143.fits |         
+ spec1d_N20200102S0013-Moutai_GNIRS_20191231T224213.756.fits |         
+ spec1d_N20200102S0012-Moutai_GNIRS_20191231T224213.756.fits |         
+flux end
+

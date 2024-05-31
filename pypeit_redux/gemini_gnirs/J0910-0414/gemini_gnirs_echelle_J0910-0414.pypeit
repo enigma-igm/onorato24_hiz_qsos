@@ -1,0 +1,49 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# UTC 2022-12-29T18:06:28.355
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = gemini_gnirs_echelle
+[reduce]
+    [[findobj]]
+        snr_thresh = 5.0
+        ech_find_max_snr = 0.5
+        ech_find_min_snr = 0.1
+        ech_find_nabove_min_snr = 1
+        find_trim_edge = 5,5
+
+# Setup
+setup read
+Setup A:
+  decker: 0.68arcsec_G5530
+  dispangle: 6.1887
+  dispname: 32/mmSB_G5533
+setup end
+
+# Data block 
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/gemini_gnirs/J0910-0414
+            filename |         frametype |           ra |          dec |     target |      dispname |           decker | binning |              mjd | airmass | exptime | dispangle |              dithoff | calib | comb_id | bkg_id
+cN20180517S0111.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9014382966 |   1.338 |   300.0 |    6.1887 |    -1.17755418518318 |     0 |       0 |      1
+cN20180517S0112.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9051508738 |   1.362 |   300.0 |    6.1887 |     1.82244581481682 |     0 |       1 |      0
+cN20180517S0113.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9088648013 |   1.387 |   300.0 |    6.1887 |     1.82244581481682 |     0 |       1 |      0
+cN20180517S0114.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9126136439 |   1.414 |   300.0 |    6.1887 |    -1.17755418518318 |     0 |       0 |      1
+cN20180517S0115.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9163264139 |   1.444 |   300.0 |    6.1887 |    -1.17755418518318 |     1 |       2 |      3
+cN20180517S0116.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9200405343 |   1.475 |   300.0 |    6.1887 |     1.82244581481682 |     1 |       3 |      2
+cN20180517S0117.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9237548476 |   1.509 |   300.0 |    6.1887 |     1.82244581481682 |     1 |       3 |      2
+cN20180517S0118.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9275038831 |   1.545 |   300.0 |    6.1887 |    -1.17755418518318 |     1 |       2 |      3
+cN20180517S0119.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9312172318 |   1.584 |   300.0 |    6.1887 |    -1.17755418518318 |     2 |       4 |      5
+cN20180517S0120.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9349300019 |   1.626 |   300.0 |    6.1887 |     1.82244581481682 |     2 |       5 |      4
+cN20180517S0121.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9386396855 |   1.671 |   300.0 |    6.1887 |     1.82244581481682 |     2 |       5 |      4
+cN20180517S0122.fits |  arc,science,tilt | 137.72719583 |  -4.23523611 | J0910-0414 | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9423891068 |   1.721 |   300.0 |    6.1887 |    -1.17755418518318 |     2 |       4 |      5
+ N20180517S0129.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9441433507 |   1.771 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+ N20180517S0130.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9442583198 |   1.773 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+ N20180517S0131.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9443713599 |   1.774 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+ N20180517S0132.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9444855574 |   1.776 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+ N20180517S0133.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9446001408 |   1.778 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+ N20180517S0134.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9447139525 |    1.78 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+ N20180517S0135.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 |  58254.944826221 |   1.781 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+ N20180517S0136.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9449396469 |   1.783 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+ N20180517S0137.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 |   58254.94505288 |   1.785 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+ N20180517S0138.fits |   pixelflat,trace | 137.72719583 |  -4.23523611 |   GCALflat | 32/mmSB_G5533 | 0.68arcsec_G5530 |     1,1 | 58254.9451653414 |   1.786 |    0.84 |    6.1887 |                  0.0 | 0,1,2 |      -1 |     -1
+data end

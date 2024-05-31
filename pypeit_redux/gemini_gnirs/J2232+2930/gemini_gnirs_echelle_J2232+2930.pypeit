@@ -1,0 +1,71 @@
+# Auto-generated PypeIt file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# 2022-05-09
+
+# User-defined execution parameters
+[rdx]
+spectrograph = gemini_gnirs_echelle
+[reduce]
+    [[findobj]]
+        snr_thresh = 5.0
+        #ech_find_max_snr = 0.5
+        #ech_find_min_snr = 0.1
+        #ech_find_nabove_min_snr = 1
+        #find_trim_edge = 5,5
+
+
+# Setup
+setup read
+ Setup A:
+   --:
+     binning: 1,1
+     dichroic: none
+     disperser:
+       angle: 6.1887
+       name: 32/mmSB_G5533
+     slit:
+       decker: SCXD_G5531
+       slitlen: none
+       slitwid: none
+setup end
+
+# Read in the data
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/gemini_gnirs/J2232+2930
+|                filename |         frametype |           ra |         dec |            target |      dispname |           decker | binning |              mjd | airmass | exptime | dispangle | calib | comb_id | bkg_id |
+| cN20150707S0209.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5923186959 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0210.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 |  57210.592429807 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0211.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5925418827 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0212.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 |  57210.592652608 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0213.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5927629475 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0214.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5928723225 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0215.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5929822762 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0216.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5930935802 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0217.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5932046913 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0218.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5933158024 |   1.018 |     0.6 |    6.1887 |1,2,3,4|      -1 |     -1 |
+| cN20150707S0189.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5640575077 |    1.02 |   300.0 |    6.1887 |     1 |       1 |      2 |
+| cN20150707S0190.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5677708564 |   1.018 |   300.0 |    6.1887 |     1 |       2 |      1 |
+| cN20150707S0191.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5714847839 |   1.016 |   300.0 |    6.1887 |     1 |       2 |      1 |
+| cN20150707S0192.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5752359413 |   1.015 |   300.0 |    6.1887 |     1 |       1 |      2 |
+| cN20150707S0193.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5789500617 |   1.015 |   300.0 |    6.1887 |     2 |       3 |      4 |
+| cN20150707S0194.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5826632175 |   1.015 |   300.0 |    6.1887 |     2 |       4 |      3 |
+| cN20150707S0195.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5863759876 |   1.015 |   300.0 |    6.1887 |     2 |       4 |      3 |
+| cN20150707S0196.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.5901250231 |   1.016 |   300.0 |    6.1887 |     2 |       3 |      4 |
+| cN20150707S0220.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.6009373302 |   1.022 |   300.0 |    6.1887 |     3 |       5 |      6 |
+| cN20150707S0221.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.6046501002 |   1.025 |   300.0 |    6.1887 |     3 |       6 |      5 |
+| cN20150707S0222.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 |  57210.608359591 |   1.028 |   300.0 |    6.1887 |     3 |       6 |      5 |
+| cN20150707S0223.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.6121072762 |   1.032 |   300.0 |    6.1887 |     3 |       5 |      6 |
+| cN20150707S0224.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 |  57210.615820432 |   1.036 |   300.0 |    6.1887 |     4 |       7 |      8 |
+| cN20150707S0225.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57210.6195357098 |   1.041 |   300.0 |    6.1887 |     4 |       8 |      7 |
+| cN20150709S0115.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5569776465 |   1.049 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0116.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5570885647 |   1.049 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0117.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5571985185 |   1.049 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0118.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5573082793 |    1.05 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0119.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5574191975 |    1.05 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0120.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5575299228 |    1.05 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0121.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5576410339 |    1.05 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0122.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5577511805 |    1.05 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0123.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5578622916 |   1.051 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0124.fits.gz |   pixelflat,trace | 338.22979167 | 29.50894444 |          GCALflat | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5579730169 |   1.051 |     0.6 |    6.1887 |     5 |      -1 |     -1 |
+| cN20150709S0101.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5510382175 |   1.038 |   300.0 |    6.1887 |     5 |       9 |     10 |
+| cN20150709S0102.fits.gz |  arc,science,tilt | 338.22979167 | 29.50894444 |        J2232+2930 | 32/mmSB_G5533 | 1.00arcsec_G5530 |     1,1 | 57212.5547868672 |   1.043 |   300.0 |    6.1887 |     5 |      10 |      9 |
+data end

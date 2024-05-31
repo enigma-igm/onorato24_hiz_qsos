@@ -1,0 +1,29 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-08-02T18:31:31.769
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = J1104+2134_GNIRS_coadd.fits  # Please set your output file name
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+# For Echelle spectrographs, please double check the sensfunc file and setup id
+
+# Data block 
+coadd1d read
+ path Science
+                                                       filename |        obj_id |      sensfile | setup_id
+spec1d_N20190121S0221-J1104+2134_GNIRS_20190121T112411.204.fits | OBJ0596-DET01 | ../sens_N20200102S0074-GD71_GNIRS_20191231T224213.756.fits |        A
+spec1d_N20190121S0217-J1104+2134_GNIRS_20190121T094107.238.fits | OBJ0598-DET01 |               |         
+spec1d_N20190121S0199-J1104+2134_GNIRS_20190121T091811.138.fits | OBJ0634-DET01 |               |         
+spec1d_N20190121S0208-J1104+2134_GNIRS_20190121T094107.238.fits | OBJ0171-DET01 |               |         
+spec1d_N20190121S0200-J1104+2134_GNIRS_20190121T091811.138.fits | OBJ0185-DET01 |               |         
+spec1d_N20190121S0207-J1104+2134_GNIRS_20190121T094107.238.fits | OBJ0619-DET01 |               |         
+spec1d_N20190121S0218-J1104+2134_GNIRS_20190121T094107.238.fits | OBJ0152-DET01 |               |         
+spec1d_N20190121S0213-J1104+2134_GNIRS_20190121T094107.238.fits | OBJ0607-DET01 |               |         
+spec1d_N20190121S0222-J1104+2134_GNIRS_20190121T112411.204.fits | OBJ0141-DET01 |               |         
+spec1d_N20190121S0214-J1104+2134_GNIRS_20190121T094107.238.fits | OBJ0161-DET01 |               |         
+spec1d_N20190121S0203-J1104+2134_GNIRS_20190121T094107.238.fits | OBJ0626-DET01 |               |         
+spec1d_N20190121S0204-J1104+2134_GNIRS_20190121T094107.238.fits | OBJ0176-DET01 |               |         
+coadd1d end
+

@@ -1,0 +1,42 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-08-03T08:57:32.759
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = J0837+4929_GNIRS_coadd.fits  # Please set your output file name
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+# For Echelle spectrographs, please double check the sensfunc file and setup id
+
+# Data block 
+coadd1d read
+ path Science
+                                                        filename |        obj_id |      sensfile | setup_id
+spec1d_cN20171226S0225-J0837+4929_GNIRS_20171226T132415.742.fits | OBJ0631-DET01 | ../sens_N20200102S0074-GD71_GNIRS_20191231T224213.756.fits |        A
+spec1d_cN20171226S0230-J0837+4929_GNIRS_20171226T135134.792.fits | OBJ0181-DET01 |               |         
+spec1d_cN20171224S0291-J0837+4929_GNIRS_20171224T070945.905.fits | OBJ0602-DET01 |               |         
+spec1d_cN20171224S0264-J0837+4929_GNIRS_20171224T050653.405.fits | OBJ0655-DET01 |               |         
+spec1d_cN20171226S0226-J0837+4929_GNIRS_20171226T132936.642.fits | OBJ0184-DET01 |               |         
+spec1d_cN20171224S0288-J0837+4929_GNIRS_20171224T065341.189.fits | OBJ0169-DET01 |               |         
+spec1d_cN20171224S0258-J0837+4929_GNIRS_20171224T044405.339.fits | OBJ0212-DET01 |               |         
+spec1d_cN20171225S0103-J0837+4929_GNIRS_20171225T064619.355.fits | OBJ0167-DET01 |               |         
+spec1d_cN20171224S0287-J0837+4929_GNIRS_20171224T064820.639.fits | OBJ0622-DET01 |               |         
+spec1d_cN20171224S0327-J0837+4929_GNIRS_20171224T080333.555.fits | OBJ0643-DET01 |               |         
+spec1d_cN20171224S0269-J0837+4929_GNIRS_20171224T053339.605.fits | OBJ0199-DET01 |               |         
+spec1d_cN20171224S0254-J0837+4929_GNIRS_20171224T042239.772.fits | OBJ0217-DET01 |               |         
+spec1d_cN20171225S0107-J0837+4929_GNIRS_20171225T070744.789.fits | OBJ0177-DET01 |               |         
+spec1d_cN20171224S0253-J0837+4929_GNIRS_20171224T041719.205.fits | OBJ0671-DET01 |               |         
+spec1d_cN20171224S0265-J0837+4929_GNIRS_20171224T051214.072.fits | OBJ0208-DET01 |               |         
+spec1d_cN20171224S0277-J0837+4929_GNIRS_20171224T060227.572.fits | OBJ0187-DET01 |               |         
+spec1d_cN20171226S0229-J0837+4929_GNIRS_20171226T134613.959.fits | OBJ0628-DET01 |               |         
+spec1d_cN20171224S0280-J0837+4929_GNIRS_20171224T061832.439.fits | OBJ0622-DET01 |               |         
+spec1d_cN20171224S0328-J0837+4929_GNIRS_20171224T080854.122.fits | OBJ0193-DET01 |               |         
+spec1d_cN20171224S0268-J0837+4929_GNIRS_20171224T052818.972.fits | OBJ0647-DET01 |               |         
+spec1d_cN20171225S0106-J0837+4929_GNIRS_20171225T070224.189.fits | OBJ0623-DET01 |               |         
+spec1d_cN20171224S0257-J0837+4929_GNIRS_20171224T043844.772.fits | OBJ0664-DET01 |               |         
+spec1d_cN20171224S0292-J0837+4929_GNIRS_20171224T071506.489.fits | OBJ0158-DET01 |               |         
+spec1d_cN20171224S0281-J0837+4929_GNIRS_20171224T062401.139.fits | OBJ0177-DET01 |               |         
+spec1d_cN20171224S0276-J0837+4929_GNIRS_20171224T055706.972.fits | OBJ0640-DET01 |               |         
+coadd1d end
+

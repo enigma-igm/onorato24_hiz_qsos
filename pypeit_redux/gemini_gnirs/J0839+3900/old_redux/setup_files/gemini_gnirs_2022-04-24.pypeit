@@ -1,0 +1,12 @@
+# Auto-generated PypeIt file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# 2022-04-24
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = gemini_gnirs
+
+# Read in the data
+data read
+ /Users/silviaonorato/Python/PypeIt_data/RAW_DATA/gemini_gnirs/J0839+3900/*.fits*
+data end
+

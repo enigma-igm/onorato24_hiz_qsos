@@ -1,0 +1,68 @@
+# Auto-generated PypeIt file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# 2022-05-02
+
+# User-defined execution parameters
+[rdx]
+spectrograph = gemini_gnirs_echelle
+[reduce]
+    [[findobj]]
+        snr_thresh = 2.0
+        ech_find_max_snr = 0.5
+        ech_find_min_snr = 0.1
+        ech_find_nabove_min_snr = 0
+        find_trim_edge = 2,2
+
+# Setup
+setup read
+ Setup A:
+   --:
+     binning: 1,1
+     dichroic: none
+     disperser:
+       angle: 6.1887
+       name: 32/mmSB_G5533
+     slit:
+       decker: SCXD_G5531
+       slitlen: none
+       slitwid: none
+setup end
+
+# Read in the data
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/gemini_gnirs/J0923+0753
+|                filename |         frametype |           ra |          dec |        target |      dispname |     decker | binning |              mjd | airmass | exptime | dispangle | calib | comb_id | bkg_id |
+|  N20190517S0154.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.4310334102 |   1.457 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0155.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.4311433639 |   1.458 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0156.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.4312546679 |   1.458 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0157.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.4313650074 |   1.459 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0158.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.4314757327 |    1.46 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0159.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.4315862651 |   1.461 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0160.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 |  58620.431699884 |   1.461 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0161.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.4318119596 |   1.462 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0162.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.4319248068 |   1.463 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0163.fits.gz |   pixelflat,trace |     187.7325 |  47.85433611 |      GCALflat | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.4320355321 |   1.463 |     0.6 |    6.1887 |   all |      -1 |     -1 |
+|  N20190517S0094.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2497170275 |   1.177 |   300.0 |    6.1887 |     1 |       1 |      2 |
+|  N20190517S0095.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2534676062 |   1.193 |   300.0 |    6.1887 |     1 |       2 |      1 |
+|  N20190517S0096.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 |  58620.257182884 |   1.211 |   300.0 |    6.1887 |     1 |       2 |      1 |
+|  N20190517S0097.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2609323053 |    1.23 |   300.0 |    6.1887 |     1 |       1 |      2 |
+|  N20190517S0098.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2646456541 |   1.249 |   300.0 |    6.1887 |     2 |       3 |      4 |
+|  N20190517S0099.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2683962328 |   1.271 |   300.0 |    6.1887 |     2 |       4 |      3 |
+|  N20190517S0100.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2721130538 |   1.294 |   300.0 |    6.1887 |     2 |       4 |      3 |
+|  N20190517S0101.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2758667189 |   1.318 |   300.0 |    6.1887 |     2 |       3 |      4 |
+|  N20190517S0102.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2795825754 |   1.344 |   300.0 |    6.1887 |     3 |       5 |      6 |
+|  N20190517S0103.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2833319967 |   1.372 |   300.0 |    6.1887 |     3 |       6 |      5 |
+|  N20190517S0104.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2870455384 |   1.402 |   300.0 |    6.1887 |     3 |       6 |      5 |
+|  N20190517S0105.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2907953454 |   1.434 |   300.0 |    6.1887 |     3 |       5 |      6 |
+|  N20190517S0106.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2945081155 |   1.468 |   300.0 |    6.1887 |     4 |       7 |      8 |
+|  N20190517S0107.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.2982565723 |   1.505 |   300.0 |    6.1887 |     4 |       8 |      7 |
+|  N20190517S0108.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.3019714643 |   1.545 |   300.0 |    6.1887 |     4 |       8 |      7 |
+|  N20190517S0109.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.3057210785 |   1.587 |   300.0 |    6.1887 |     4 |       7 |      8 |
+|  N20190517S0110.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.3094344272 |   1.633 |   300.0 |    6.1887 |     5 |       9 |     10 |
+|  N20190517S0111.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.3131842343 |   1.683 |   300.0 |    6.1887 |     5 |      10 |      9 |
+|  N20190517S0112.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.3169000908 |   1.736 |   300.0 |    6.1887 |     5 |      10 |      9 |
+|  N20190517S0113.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.3206514411 |   1.795 |   300.0 |    6.1887 |     5 |       9 |     10 |
+|  N20190517S0114.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.3243667189 |   1.858 |   300.0 |    6.1887 |     6 |      11 |     12 |
+|  N20190517S0115.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 | 58620.3281149828 |   1.927 |   300.0 |    6.1887 |     6 |      12 |     11 |
+|  N20190517S0116.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 |  58620.331831418 |   2.001 |   300.0 |    6.1887 |     6 |      12 |     11 |
+|  N20190517S0117.fits.gz |  arc,science,tilt | 140.99582083 |     7.896975 |    J0923+0753 | 32/mmSB_G5533 | SCXD_G5531 |     1,1 |  58620.335581418 |   2.084 |   300.0 |    6.1887 |     6 |      11 |     12 |
+data end

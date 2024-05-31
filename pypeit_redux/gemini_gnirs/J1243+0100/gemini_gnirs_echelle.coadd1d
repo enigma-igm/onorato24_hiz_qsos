@@ -1,0 +1,18 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-10-12T11:57:15.363
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = J1243+0100_GNIRS_coadd.fits  # Please set your output file name
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+# For Echelle spectrographs, please double check the sensfunc file and setup id
+
+# Data block 
+coadd1d read
+ path Science_coadd
+                                              filename |        obj_id |      sensfile | setup_id
+spec1d_N20180625S0286-N20180729S0030-HSC1243+0100.fits | OBJ0458-DET01 | ../sens_N20200102S0074-GD71_GNIRS_20191231T224213.756.fits |        GNIRS
+coadd1d end
+
