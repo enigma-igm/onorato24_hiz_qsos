@@ -1,0 +1,23 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-07-28T13:05:30.267
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = J0706+2921_DEIMOS_coadd.fits  # Please set your output file name
+  wave_method = linear  # creates a uniformly space grid in lambda
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+
+# Data block 
+coadd1d read
+ path Science
+                                                               filename |                  obj_id
+#spec1d_DE.20191130.46251-J0706+2921_OFF_DEIMOS_20191130T125046.378.fits | SPAT0884-SLIT0764-MSC03
+#spec1d_DE.20191130.46251-J0706+2921_OFF_DEIMOS_20191130T125046.378.fits | SPAT0902-SLIT0764-MSC03
+spec1d_DE.20191130.46251-J0706+2921_OFF_DEIMOS_20191130T125046.378.fits | SPAT1063-SLIT0764-MSC03
+#spec1d_DE.20191130.46251-J0706+2921_OFF_DEIMOS_20191130T125046.378.fits | SPAT1483-SLIT0764-MSC03
+#spec1d_DE.20191130.47524-J0706+2921_OFF_DEIMOS_20191130T131159.827.fits | SPAT0872-SLIT0764-MSC03
+#spec1d_DE.20191130.47524-J0706+2921_OFF_DEIMOS_20191130T131159.827.fits | SPAT0898-SLIT0764-MSC03
+spec1d_DE.20191130.47524-J0706+2921_OFF_DEIMOS_20191130T131159.827.fits | SPAT1063-SLIT0764-MSC03
+coadd1d end
+
