@@ -1,0 +1,31 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# UTC 2022-08-22T16:39:40.913
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_vis
+
+# Setup
+setup read
+Setup C:
+  arm: VIS
+setup end
+
+# Data block 
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/vlt_xshooter/std_star_LTT3218
+                          filename |                 frametype |         ra |       dec |        target | dispname |   decker | binning |             mjd | airmass | exptime | arm | dither | calib |
+XSHOO.2018-01-28T23:14:27.178.fits |                  arc,tilt |       None |      None |     LAMP,WAVE |  default |   0.9x11 |     1,1 | 58146.968370113 |    None |     5.0 | VIS |   None |   all |
+XSHOO.2017-01-28T10:05:33.850.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57781.420530674 |    None |     0.0 | VIS |   None |   all |
+XSHOO.2017-01-28T10:06:51.147.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57781.421425309 |    None |     0.0 | VIS |   None |   all |
+XSHOO.2017-01-28T10:07:42.141.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 |  57781.42201552 |    None |     0.0 | VIS |   None |   all |
+XSHOO.2017-01-28T10:08:32.866.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 | 57781.422602606 |    None |     0.0 | VIS |   None |   all |
+XSHOO.2017-01-28T10:09:13.848.fits |                      bias |       None |      None |          BIAS |  default | 1.0x12.6 |     1,1 |  57781.42307695 |    None |     0.0 | VIS |   None |   all |
+XSHOO.2017-01-28T16:20:21.358.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   1.5x11 |     1,1 |  57781.68080275 |    None |  6.1608 | VIS |   None |   all |
+XSHOO.2017-01-28T16:22:05.886.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   1.5x11 |     1,1 | 57781.682012573 |    None |  6.1608 | VIS |   None |   all |
+XSHOO.2017-01-28T16:23:49.795.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   1.5x11 |     1,1 |  57781.68321522 |    None |  6.1608 | VIS |   None |   all |
+XSHOO.2017-01-28T16:25:33.904.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   1.5x11 |     1,1 | 57781.684420181 |    None |  6.1608 | VIS |   None |   all |
+XSHOO.2017-01-28T16:27:15.562.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   1.5x11 |     1,1 | 57781.685596784 |    None |  6.1608 | VIS |   None |   all |
+XSHOO.2017-01-28T00:21:02.340.fits |                  standard |  88.115204 |  15.88568 |      STD,FLUX |  default |   5.0x11 |     1,1 | 57781.014610416 |   1.487 |   600.0 | VIS |    2.5 |     0 |
+XSHOO.2017-01-28T00:33:54.124.fits |                  standard |  88.116065 |   15.8868 |      STD,FLUX |  default |   5.0x11 |     1,1 | 57781.023543101 |   1.444 |   600.0 | VIS |   -2.5 |     0 |
+data end

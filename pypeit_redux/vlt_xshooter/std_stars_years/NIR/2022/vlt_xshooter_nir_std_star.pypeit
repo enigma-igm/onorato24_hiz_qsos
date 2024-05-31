@@ -1,0 +1,36 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.14.1.dev257+g058bbfb3f
+# UTC 2023-11-09T14:48:49.507
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_nir
+[reduce]
+    [[findobj]]
+
+# Setup
+setup read
+Setup C:
+  arm: NIR
+setup end
+
+# Data block 
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/vlt_xshooter/J0038-0653
+                            filename |       frametype |         ra |       dec |        target | dispname |  decker | binning |            mjd | airmass | exptime | arm |    dither | comb_id | bkg_id | calib
+  XSHOO.2022-09-19T03:47:15.029.fits |        standard | 349.993173 |  -5.16607 |      STD,FLUX |  default |  5.0x11 |     1,1 | 59841.15781283 |   1.067 |   200.0 | NIR |       2.5 |       9 |     10 |     2
+  XSHOO.2022-09-19T03:52:16.539.fits |        standard |  349.99367 |  -5.16478 |      STD,FLUX |  default |  5.0x11 |     1,1 | 59841.16130254 |   1.065 |   200.0 | NIR |      -2.5 |      10 |      9 |     2
+  XSHOO.2022-09-19T04:09:45.257.fits |        tilt,arc |   9.515443 |  -6.89038 |    J0038-0653 |  default |  0.6x11 |     1,1 | 59841.17344048 |   1.112 |   600.0 | NIR |   2.41757 |      -1 |     -1 |     2
+  XSHOO.2022-09-19T04:19:53.354.fits |        tilt,arc |   9.515443 |  -6.89038 |    J0038-0653 |  default |  0.6x11 |     1,1 | 59841.18047863 |   1.097 |   600.0 | NIR |   2.41757 |      -1 |     -1 |     2
+  XSHOO.2022-09-19T04:30:57.974.fits |        tilt,arc |   9.516471 |  -6.88945 |    J0038-0653 |  default |  0.6x11 |     1,1 |   59841.188171 |   1.083 |   600.0 | NIR | -2.572794 |      -1 |     -1 |     2
+  XSHOO.2022-09-19T04:41:07.397.fits |        tilt,arc |   9.516471 |  -6.88945 |    J0038-0653 |  default |  0.6x11 |     1,1 |  59841.1952245 |   1.072 |   600.0 | NIR | -2.572794 |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:24:56.532.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60065431 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:25:17.454.fits |    lampoffflats |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60089646 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:25:37.683.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60113059 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:25:58.604.fits |    lampoffflats |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60137273 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:26:16.751.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60158277 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:26:38.366.fits |    lampoffflats |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60183294 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:26:58.592.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60206704 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:27:19.514.fits |    lampoffflats |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60230919 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:27:39.742.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60254331 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+  XSHOO.2022-09-19T14:28:00.664.fits |    lampoffflats |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59841.60278546 |    None |   12.48 | NIR |      None |      -1 |     -1 |     2
+data end

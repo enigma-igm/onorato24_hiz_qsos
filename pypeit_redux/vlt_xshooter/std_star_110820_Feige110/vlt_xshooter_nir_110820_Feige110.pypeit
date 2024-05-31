@@ -1,0 +1,40 @@
+# Auto-generated PypeIt file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# 2022-06-20
+
+# User-defined execution parameters
+[rdx]
+spectrograph = vlt_xshooter_nir
+[calibrations]
+    [[slitedges]]
+        edge_thresh = 50
+
+# Setup
+setup read
+ Setup A
+setup end
+
+# Read in the data
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/vlt_xshooter/standard_110820_Feige110
+|                           filename |       frametype |         ra |       dec |       target | dispname | decker | binning |            mjd | airmass | exptime | arm | dither | calib | comb_id | bkg_id |
+| XSHOO.2011-08-20T01_06_15.286.fits |        arc,tilt | 313.340464 |   0.78469 |   J2053+0047 |  default | 0.9x11 |     1,1 | 55793.04601025 |   1.433 |  1800.0 | NIR |    2.1 |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T01_37_20.995.fits |        arc,tilt | 313.341425 |   0.78535 |   J2053+0047 |  default | 0.9x11 |     1,1 | 55793.06760411 |     1.3 |  1800.0 | NIR |   -2.1 |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T02_08_20.714.fits |        arc,tilt | 313.341425 |   0.78535 |   J2053+0047 |  default | 0.9x11 |     1,1 | 55793.08912864 |    1.21 |  1800.0 | NIR |   -2.1 |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T02_39_26.421.fits |        arc,tilt | 313.340464 |   0.78469 |   J2053+0047 |  default | 0.9x11 |     1,1 | 55793.11072246 |   1.152 |  1800.0 | NIR |    2.1 |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T09_53_07.207.fits |        standard | 349.993917 |  -5.16536 |     STD,FLUX |  default | 5.0x11 |     1,1 | 55793.41188897 |    1.84 |   200.0 | NIR |    2.1 |     0 |       1 |      2 |
+| XSHOO.2011-08-20T09_58_07.388.fits |        standard | 349.992867 |  -5.16484 |     STD,FLUX |  default | 5.0x11 |     1,1 | 55793.41536329 |   1.898 |   200.0 | NIR |   -2.1 |     0 |       2 |      1 |
+| XSHOO.2011-08-20T10_03_38.229.fits |        standard | 349.993917 |  -5.16536 |     STD,FLUX |  default | 5.0x11 |     1,1 | 55793.41919247 |   1.967 |   200.0 | NIR |    2.1 |     1 |       5 |      6 |
+| XSHOO.2011-08-20T10_09_35.731.fits |        standard | 349.992867 |  -5.16484 |     STD,FLUX |  default | 5.0x11 |     1,1 | 55793.42333022 |   2.048 |   200.0 | NIR |   -2.1 |     1 |       6 |      5 |
+| XSHOO.2011-08-20T10_16_08.560.fits |        standard | 349.993917 |  -5.16536 |     STD,FLUX |  default | 5.0x11 |     1,1 | 55793.42787685 |   2.147 |   200.0 | NIR |    2.1 |     2 |       3 |      4 |
+| XSHOO.2011-08-20T10_21_24.070.fits |        standard | 349.992867 |  -5.16484 |     STD,FLUX |  default | 5.0x11 |     1,1 | 55793.43152859 |   2.235 |   200.0 | NIR |   -2.1 |     2 |       4 |      3 |
+| XSHOO.2011-08-20T17_17_43.231.fits | pixelflat,trace |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72063925 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T17_18_30.786.fits |    lampoffflats |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72118965 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T17_19_19.673.fits | pixelflat,trace |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72175548 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T17_20_09.228.fits |    lampoffflats |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72232903 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T17_20_57.451.fits | pixelflat,trace |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72288717 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T17_21_44.339.fits |    lampoffflats |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72342985 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T17_22_32.561.fits | pixelflat,trace |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72398798 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T17_23_22.114.fits |    lampoffflats |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72456151 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T17_24_10.336.fits | pixelflat,trace |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72511963 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+| XSHOO.2011-08-20T17_24_57.224.fits |    lampoffflats |       None |      None |    LAMP,FLAT |  default | 0.9x11 |     1,1 | 55793.72566231 |    None |    40.0 | NIR |   None |   all |      -1 |     -1 |
+data end
