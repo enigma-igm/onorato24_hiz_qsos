@@ -1,4 +1,4 @@
-qso_name,short_name,z,err_z,J_ab,err_J,mag_Y,err_Y,mag_Kp,err_Kp,passband,keyword,M1450
+qso_name,short_name,z,err_z,mag_J,err_J,mag_Y,err_Y,mag_Kp,err_Kp,passband,keyword,M1450
 J031343.839-180636.404,J0313-1806,7.6423,0.0013,20.92,0.13,,,,,VISTA,,-26.20838036
 J134208.110+092838.610,J1342+0928,7.5413,0.0007,20.644,0.0819,,,,,UKIRT,WFCAM,-26.33561405
 J100758.264+211529.207,J1007+2115,7.5149,0.0005,20.2,0.18,,,,,UKIRT,UHS,-26.81770969
