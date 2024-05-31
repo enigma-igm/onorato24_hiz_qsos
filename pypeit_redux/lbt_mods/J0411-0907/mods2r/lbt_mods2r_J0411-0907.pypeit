@@ -1,0 +1,49 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-08-16T14:56:48.575
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = lbt_mods2r
+    #detnum = 1
+    slitspatnum = DET01:1568
+[reduce]
+  [[findobj]]
+      snr_thresh = 3.
+      maxnumber_sci = 2
+      find_min_max = 5900, None
+
+# Setup
+setup read
+Setup B:
+  binning: 1,1
+  dispname: G670L
+setup end
+
+# Data block 
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/lbt_mods/J0411-0907
+                    filename |                 frametype |                 ra |                dec |                                    target | dispname |     decker | binning |          mjd | airmass | exptime | calib
+mods2r.20180112.0057.fits.gz |                  arc,tilt |         180.323125 | 21.590408333333333 |                               Xe+Kr Lamps |    G670L | LS5x60x0.6 |     1,1 | 58130.584094 |     1.0 |     1.0 |     1
+mods2r.20180112.0058.fits.gz |                  arc,tilt |         180.323125 | 21.590408333333333 |                                   Ar Lamp |    G670L | LS5x60x0.6 |     1,1 | 58130.585346 |     1.0 |     1.0 |     1
+mods2r.20200219.0008.fits.gz |                      bias |                0.0 |                0.0 |                                Bias 8Kx3K |    G670L |     LS60x5 |     1,1 | 58898.033843 |     1.0 |     0.0 |     1,2
+mods2r.20200219.0009.fits.gz |                      bias |                0.0 |                0.0 |                                Bias 8Kx3K |    G670L |     LS60x5 |     1,1 | 58898.035034 |     1.0 |     0.0 |     1,2
+mods2r.20200219.0010.fits.gz |                      bias |                0.0 |                0.0 |                                Bias 8Kx3K |    G670L |     LS60x5 |     1,1 | 58898.036264 |     1.0 |     0.0 |     1,2
+mods2r.20200217.0011.fits.gz | pixelflat,illumflat,trace |                0.0 |                0.0 | VFLAT10.0 Clear Dual LS5x60x1.2 Slit Flat |    G670L | LS5x60x1.2 |     1,1 | 58896.007612 |     1.0 |     1.0 |     1,2
+mods2r.20200217.0012.fits.gz | pixelflat,illumflat,trace |                0.0 |                0.0 | VFLAT10.0 Clear Dual LS5x60x1.2 Slit Flat |    G670L | LS5x60x1.2 |     1,1 | 58896.008799 |     1.0 |     1.0 |     1,2
+mods2r.20200217.0013.fits.gz | pixelflat,illumflat,trace |                0.0 |                0.0 | VFLAT10.0 Clear Dual LS5x60x1.2 Slit Flat |    G670L | LS5x60x1.2 |     1,1 | 58896.009984 |     1.0 |     1.0 |     1,2
+mods2r.20180112.0015.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                            QSO_J0411-0907 |    G670L | LS5x60x1.0 |     1,1 | 58130.128173 |     1.4 |  1200.0 |     1
+mods2r.20180112.0016.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                            QSO_J0411-0907 |    G670L | LS5x60x1.0 |     1,1 | 58130.143235 |    1.36 |  1200.0 |     1
+mods2r.20180112.0017.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                            QSO_J0411-0907 |    G670L | LS5x60x1.0 |     1,1 | 58130.158299 |    1.35 |  1200.0 |     1
+mods2r.20200217.0018.fits.gz |                  arc,tilt |                0.0 |                0.0 |                             Kr + Xe Lamps |    G670L | LS5x60x0.6 |     1,1 | 58896.028442 |     1.0 |     1.0 |     2
+mods2r.20200217.0019.fits.gz |                  arc,tilt |                0.0 |                0.0 |                                   Ar Lamp |    G670L | LS5x60x0.6 |     1,1 |  58896.02968 |     1.0 |     1.0 |     2
+mods2r.20200217.0028.fits.gz |                  standard |  88.11505833333332 | 15.887152777777777 |                                     GD 71 |    G670L |     LS60x5 |     1,1 | 58896.075446 |    1.13 |   180.0 |     2
+mods2r.20200217.0029.fits.gz |                  standard |  88.11505833333332 | 15.887152777777777 |                                     GD 71 |    G670L |     LS60x5 |     1,1 | 58896.078705 |    1.12 |   180.0 |     2
+mods2r.20200217.0039.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                             QSO_0411-0907 |    G670L | LS5x60x1.2 |     1,1 |  58896.10766 |    1.38 |  1200.0 |     2
+mods2r.20200217.0040.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                             QSO_0411-0907 |    G670L | LS5x60x1.2 |     1,1 | 58896.122724 |    1.42 |  1200.0 |     2
+mods2r.20200217.0041.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                             QSO_0411-0907 |    G670L | LS5x60x1.2 |     1,1 | 58896.137789 |    1.47 |  1200.0 |     2
+mods2r.20200219.0048.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                             QSO_0411-0907 |    G670L | LS5x60x1.0 |     1,1 | 58898.122389 |    1.43 |  1200.0 |     2
+mods2r.20200219.0049.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                             QSO_0411-0907 |    G670L | LS5x60x1.0 |     1,1 | 58898.137454 |     1.5 |  1200.0 |     2
+mods2r.20200219.0050.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                             QSO_0411-0907 |    G670L | LS5x60x1.0 |     1,1 | 58898.152523 |    1.58 |  1200.0 |     2
+mods2r.20200219.0051.fits.gz |                   science |  62.85789166666667 | -9.127341666666668 |                             QSO_0411-0907 |    G670L | LS5x60x1.0 |     1,1 |  58898.16935 |    1.72 |  1200.0 |     2
+data end
+
