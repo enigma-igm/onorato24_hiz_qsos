@@ -1,0 +1,9 @@
+# Auto-generated Telluric input file using PypeIt version: 1.14.1.dev257+g058bbfb3f
+# UTC 2024-05-08T12:32:37.232+00:00
+
+# User-defined execution parameters
+[telluric]
+  objmodel = qso
+  redshift = 6.5846
+  bal_wv_min_max = 10000., 11000.
+

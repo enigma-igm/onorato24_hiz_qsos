@@ -1,0 +1,40 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# UTC 2023-01-01T16:23:13.366
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_nires
+
+# Setup
+setup read
+Setup A:
+  dispname: spec
+setup end
+
+# Data block 
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/keck_nires/J0910-0414
+                 filename |        frametype |               ra |               dec |         target | dispname |    decker | binning |              mjd |          airmass | exptime | dithpat | dithpos | dithoff | frameno | calib | comb_id | bkg_id
+NR.20190315.13180.fits.gz |  pixelflat,trace |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1525473336 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      32 |   all |      -1 |     -1
+NR.20190315.13296.fits.gz |     lampoffflats |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1538931669 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      33 |   all |      -1 |     -1
+NR.20190315.13412.fits.gz |  pixelflat,trace |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1552330975 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      34 |   all |      -1 |     -1
+NR.20190315.13527.fits.gz |     lampoffflats |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 |  58557.156573028 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      35 |   all |      -1 |     -1
+NR.20190315.13642.fits.gz |  pixelflat,trace |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 |  58557.157901153 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      36 |   all |      -1 |     -1
+NR.20190315.13758.fits.gz |     lampoffflats |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1592410836 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      37 |   all |      -1 |     -1
+NR.20190315.13873.fits.gz |  pixelflat,trace |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1605692086 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      38 |   all |      -1 |     -1
+NR.20190315.13989.fits.gz |     lampoffflats |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1619150419 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      39 |   all |      -1 |     -1
+NR.20190315.14167.fits.gz |  pixelflat,trace |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1639810141 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      40 |   all |      -1 |     -1
+NR.20190315.14284.fits.gz |     lampoffflats |             58.0 |              45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1653268475 | 1.41291034446565 |   100.0 |    NONE |       4 |     0.0 |      41 |   all |      -1 |     -1
+NR.20190315.26746.fits.gz | arc,science,tilt | 137.725225297063 | -4.23637702421094 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3095671252 | 1.11042048061829 |   300.0 |    ABBA |       1 |     2.5 |      62 |     1 |       1 |      2
+NR.20190315.27101.fits.gz | arc,science,tilt | 137.724656974536 | -4.23510903857512 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3136695558 | 1.10598627172508 |   300.0 |    ABBA |       2 |    -2.5 |      63 |     1 |       2 |      1
+NR.20190315.27452.fits.gz | arc,science,tilt | 137.724656974536 | -4.23510903857512 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3177424725 | 1.10229399997636 |   300.0 |    ABBA |       3 |    -2.5 |      64 |     1 |       2 |      1
+NR.20190315.27806.fits.gz | arc,science,tilt | 137.725225296945 | -4.23637702426375 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3218390002 | 1.09936407014883 |   300.0 |    ABBA |       4 |     2.5 |      65 |     1 |       1 |      2
+NR.20190315.28175.fits.gz | arc,science,tilt | 137.725225296946 | -4.23637702426346 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3261008058 | 1.09718787946847 |   300.0 |    ABBA |       1 |     2.5 |      66 |     2 |       5 |      6
+NR.20190315.28529.fits.gz | arc,science,tilt |  137.72465697461 | -4.23510903854247 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3301973336 | 1.09581165772023 |   300.0 |    ABBA |       2 |    -2.5 |      67 |     2 |       6 |      5
+NR.20190315.28880.fits.gz | arc,science,tilt |  137.72465697461 | -4.23510903854247 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3342643475 | 1.09521087511135 |   300.0 |    ABBA |       3 |    -2.5 |      68 |     2 |       6 |      5
+NR.20190315.29234.fits.gz | arc,science,tilt | 137.725225296937 | -4.23637702426739 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3383608752 |  1.0953315315206 |   300.0 |    ABBA |       4 |     2.5 |      69 |     2 |       5 |      6
+NR.20190315.29605.fits.gz | arc,science,tilt | 137.725225296937 | -4.23637702426729 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3426521947 | 1.09628999493024 |   300.0 |    ABBA |       1 |     2.5 |      70 |     3 |       9 |     10
+NR.20190315.29959.fits.gz | arc,science,tilt | 137.724656974555 |  -4.2351090385667 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3467487225 | 1.09790521337248 |   300.0 |    ABBA |       2 |    -2.5 |      71 |     3 |      10 |      9
+NR.20190315.30312.fits.gz | arc,science,tilt | 137.724656974555 |  -4.2351090385667 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3508393474 | 1.10035022015987 |   300.0 |    ABBA |       3 |    -2.5 |      72 |     3 |      10 |      9
+NR.20190315.30665.fits.gz | arc,science,tilt | 137.725225297041 |  -4.2363770242209 |     H0910-0414 |     spec | 0.55 slit |     1,1 | 58557.3549240697 | 1.10352587332101 |   300.0 |    ABBA |       4 |     2.5 |      73 |     3 |       9 |     10
+data end

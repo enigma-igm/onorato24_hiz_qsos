@@ -1,0 +1,47 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.14.1.dev257+g058bbfb3f
+# UTC 2024-05-08T11:52:40.529+00:00
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = keck_nires
+[reduce]
+    [[findobj]]
+        snr_thresh = 5.0
+        ech_find_max_snr = 0.5
+        ech_find_min_snr = 0.1
+        ech_find_nabove_min_snr = 1
+        find_trim_edge = 5,5
+# Setup
+setup read
+Setup A:
+  dispname: spec
+setup end
+
+# Data block 
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/keck_nires/J1058+2930
+                   filename |        frametype |               ra |              dec |         target | dispname |    decker | binning |              mjd |          airmass | exptime | frameno | dithpat | dithpos | dithoff | calib | comb_id | bkg_id
+  NR.20190315.13180.fits.gz |  pixelflat,trace |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1525473336 | 1.41291034446565 |   100.0 |      32 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.13296.fits.gz |     lampoffflats |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1538931669 | 1.41291034446565 |   100.0 |      33 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.13412.fits.gz |  pixelflat,trace |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1552330975 | 1.41291034446565 |   100.0 |      34 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.13527.fits.gz |     lampoffflats |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 |  58557.156573028 | 1.41291034446565 |   100.0 |      35 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.13642.fits.gz |  pixelflat,trace |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 |  58557.157901153 | 1.41291034446565 |   100.0 |      36 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.13758.fits.gz |     lampoffflats |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1592410836 | 1.41291034446565 |   100.0 |      37 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.13873.fits.gz |  pixelflat,trace |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1605692086 | 1.41291034446565 |   100.0 |      38 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.13989.fits.gz |     lampoffflats |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1619150419 | 1.41291034446565 |   100.0 |      39 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.14167.fits.gz |  pixelflat,trace |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1639810141 | 1.41291034446565 |   100.0 |      40 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.14284.fits.gz |     lampoffflats |             58.0 |             45.0 |     DOME PHLAT |     spec | 0.55 slit |     1,1 | 58557.1653268475 | 1.41291034446565 |   100.0 |      41 |    NONE |    None |     0.0 |   all |      -1 |     -1
+  NR.20190315.40518.fits.gz | arc,science,tilt | 164.531104519474 | 29.5118600372191 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.4689598336 | 1.07460929277749 |   300.0 |      89 |    ABBA |       A |     2.5 |     0 |       1 |      2
+  NR.20190315.40871.fits.gz | arc,science,tilt | 164.532608243691 | 29.5113934088797 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.4730504586 | 1.08384650653068 |   300.0 |      90 |    ABBA |       B |    -2.5 |     0 |       2 |      1
+  NR.20190315.41223.fits.gz | arc,science,tilt | 164.532608243691 | 29.5113934088797 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.4771233752 | 1.09379397340368 |   300.0 |      91 |    ABBA |       B |    -2.5 |     0 |       2 |      1
+  NR.20190315.41577.fits.gz | arc,science,tilt | 164.531118977431 | 29.5118926976323 |     J1058+2930 |     spec | 0.55 slit |     1,1 |  58557.481219903 | 1.10452525081448 |   300.0 |      92 |    ABBA |       A |     2.5 |     0 |       1 |      2
+  NR.20190315.41974.fits.gz | arc,science,tilt |  164.53110451955 | 29.5118600373904 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.4858122641 | 1.11759121174578 |   300.0 |      93 |    ABBA |       A |     2.5 |     1 |       5 |      6
+  NR.20190315.42327.fits.gz | arc,science,tilt | 164.532608243644 | 29.5113934087517 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.4899028891 | 1.13007101929931 |   300.0 |      94 |    ABBA |       B |    -2.5 |     1 |       6 |      5
+  NR.20190315.42680.fits.gz | arc,science,tilt | 164.532593785749 | 29.5113607485072 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.4939817086 | 1.14344817713381 |   300.0 |      95 |    ABBA |       B |    -2.5 |     1 |       6 |      5
+  NR.20190315.43033.fits.gz | arc,science,tilt | 164.531104519589 | 29.5118600374849 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.4980723336 |  1.1578582432039 |   300.0 |      96 |    ABBA |       A |     2.5 |     1 |       5 |      6
+  NR.20190315.43415.fits.gz | arc,science,tilt | 164.531104519593 | 29.5118600374867 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.5024994169 | 1.17449703370478 |   300.0 |      97 |    ABBA |       A |     2.5 |     2 |       9 |     10
+  NR.20190315.43769.fits.gz | arc,science,tilt | 164.532593785719 | 29.5113607484335 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.5065959447 | 1.19106691542049 |   300.0 |      98 |    ABBA |       B |    -2.5 |     2 |      10 |      9
+  NR.20190315.44121.fits.gz | arc,science,tilt | 164.532593785719 | 29.5113607484335 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.5106688613 | 1.20859966040048 |   300.0 |      99 |    ABBA |       B |    -2.5 |     2 |      10 |      9
+  NR.20190315.44476.fits.gz | arc,science,tilt | 164.531104519618 | 29.5118600375434 |     J1058+2930 |     spec | 0.55 slit |     1,1 | 58557.5147712919 | 1.22752369614822 |   300.0 |     100 |    ABBA |       A |     2.5 |     2 |       9 |     10
+data end
+

@@ -1,0 +1,29 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-07-27T11:06:58.592
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = J0218+0007_NIRES_coadd.fits  # Please set your output file name
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+# For Echelle spectrographs, please double check the sensfunc file and setup id
+
+# Data block 
+coadd1d read
+ path Science
+                                                          filename |        obj_id |      sensfile | setup_id
+#spec1d_NR.20200907.48392-J0218+0007_NIRES_20200907T132632.366.fits | OBJ0199-DET01 | ../sens_s190519_0059-GD153_NIRES_20190519T083811.995.fits |        A
+spec1d_NR.20200907.48392-J0218+0007_NIRES_20200907T132632.366.fits | OBJ0643-DET01 | ../sens_s190519_0059-GD153_NIRES_20190519T083811.995.fits  |        A 
+spec1d_NR.20200907.53084-J0218+0007_NIRES_20200907T144444.876.fits | OBJ0369-DET01 |               |         
+spec1d_NR.20200907.51392-J0218+0007_NIRES_20200907T141632.186.fits | OBJ0367-DET01 |               |         
+spec1d_NR.20200907.49671-J0218+0007_NIRES_20200907T134751.956.fits | OBJ0370-DET01 |               |         
+spec1d_NR.20200907.47970-J0218+0007_NIRES_20200907T131930.086.fits | OBJ0368-DET01 |               |         
+#spec1d_NR.20200907.53506-J0218+0007_NIRES_20200907T145146.646.fits | OBJ0198-DET01 |               |         
+spec1d_NR.20200907.53506-J0218+0007_NIRES_20200907T145146.646.fits | OBJ0645-DET01 |               |         
+#spec1d_NR.20200907.50094-J0218+0007_NIRES_20200907T135454.316.fits | OBJ0200-DET01 |               |         
+spec1d_NR.20200907.50094-J0218+0007_NIRES_20200907T135454.316.fits | OBJ0640-DET01 |               |         
+#spec1d_NR.20200907.51814-J0218+0007_NIRES_20200907T142334.466.fits | OBJ0202-DET01 |               |         
+spec1d_NR.20200907.51814-J0218+0007_NIRES_20200907T142334.466.fits | OBJ0643-DET01 |               |         
+coadd1d end
+

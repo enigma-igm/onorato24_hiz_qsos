@@ -1,0 +1,29 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-07-27T11:39:25.805
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = J2102-1458_NIRES_coadd.fits  # Please set your output file name
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+# For Echelle spectrographs, please double check the sensfunc file and setup id
+
+# Data block 
+coadd1d read
+ path Science
+                                                     filename |        obj_id |      sensfile | setup_id
+spec1d_NR.20181001.30173-J2102_NIRES_20181001T082253.528.fits | OBJ0363-DET01 | ../sens_s190519_0059-GD153_NIRES_20190519T083811.995.fits |        A
+spec1d_NR.20181001.28906-J2102_NIRES_20181001T080146.688.fits | OBJ0660-DET01 |               |         
+spec1d_NR.20181001.26811-J2102_NIRES_20181001T072651.608.fits | OBJ0334-DET01 |               |         
+#spec1d_NR.20181001.26811-J2102_NIRES_20181001T072651.608.fits | OBJ0441-DET01 |               |         
+spec1d_NR.20181001.27226-J2102_NIRES_20181001T073346.238.fits | OBJ0660-DET01 |               |         
+spec1d_NR.20181001.28492-J2102_NIRES_20181001T075452.568.fits | OBJ0332-DET01 |               |         
+spec1d_NR.20181001.30588-J2102_NIRES_20181001T082948.328.fits | OBJ0635-DET01 |               |         
+#spec1d_NR.20181001.25142-J2102_NIRES_20181001T065902.888.fits | OBJ0225-DET01 |               |         
+spec1d_NR.20181001.25142-J2102_NIRES_20181001T065902.888.fits | OBJ0334-DET01 |               |         
+#spec1d_NR.20181001.25142-J2102_NIRES_20181001T065902.888.fits | OBJ0509-DET01 |               |         
+#spec1d_NR.20181001.25142-J2102_NIRES_20181001T065902.888.fits | OBJ0784-DET01 |               |         
+spec1d_NR.20181001.25557-J2102_NIRES_20181001T070557.008.fits | OBJ0662-DET01 |               |         
+coadd1d end
+

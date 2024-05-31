@@ -1,0 +1,32 @@
+# Auto-generated Flux input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-07-27T10:34:57.673
+
+# User-defined execution parameters
+[fluxcalib]
+  extinct_correct = False  # Set to True if your SENSFUNC derived with the UVIS algorithm
+# Please add your SENSFUNC file name below before running pypeit_flux_calib
+
+# Data block 
+flux read
+ path Science
+                                                          filename | sensfile
+spec1d_NR.20200907.22139-J1917+5003_NIRES_20200907T060859.606.fits | ../sens_s190519_0059-GD153_NIRES_20190519T083811.995.fits        
+spec1d_NR.20200907.23835-J1917+5003_NIRES_20200907T063715.356.fits |         
+spec1d_NR.20191111.19011-J1917+5003_NIRES_20191111T051651.318.fits |         
+spec1d_NR.20200907.31255-J1917+5003_NIRES_20200907T084055.346.fits |         
+spec1d_NR.20200907.34219-J1917+5003_NIRES_20200907T093019.976.fits |         
+spec1d_NR.20200907.24257-J1917+5003_NIRES_20200907T064417.636.fits |         
+spec1d_NR.20200907.32953-J1917+5003_NIRES_20200907T090913.646.fits |         
+spec1d_NR.20200907.30833-J1917+5003_NIRES_20200907T083353.066.fits |         
+spec1d_NR.20191111.18668-J1917+5003_NIRES_20191111T051108.598.fits |         
+spec1d_NR.20200907.32526-J1917+5003_NIRES_20200907T090206.776.fits |         
+spec1d_NR.20200907.27692-J1917+5003_NIRES_20200907T074132.486.fits |         
+spec1d_NR.20200907.34642-J1917+5003_NIRES_20200907T093722.256.fits |         
+spec1d_NR.20200907.22561-J1917+5003_NIRES_20200907T061601.376.fits |         
+spec1d_NR.20200907.20426-J1917+5003_NIRES_20200907T054026.006.fits |         
+spec1d_NR.20200907.27270-J1917+5003_NIRES_20200907T073430.206.fits |         
+spec1d_NR.20200907.25540-J1917+5003_NIRES_20200907T070540.796.fits |         
+spec1d_NR.20200907.25962-J1917+5003_NIRES_20200907T071242.566.fits |         
+spec1d_NR.20200907.20848-J1917+5003_NIRES_20200907T054728.796.fits |         
+flux end
+

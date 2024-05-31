@@ -1,0 +1,36 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-07-26T14:58:49.702
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = J0410-0139_NIRES_coadd.fits  # Please set your output file name
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+  chk_version = False
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+# For Echelle spectrographs, please double check the sensfunc file and setup id
+
+# Data block 
+coadd1d read
+ path Science
+                                                         filename |        obj_id |      sensfile | setup_id
+spec1d_NR.20201226.36854-PSO062-01_NIRES_20201226T101414.896.fits | OBJ0706-DET01 | ../sens_s190519_0059-GD153_NIRES_20190519T083811.995.fits |        A
+#spec1d_NR.20201226.28386-PSO062-01_NIRES_20201226T075306.856.fits | OBJ0442-DET01 |               |         
+spec1d_NR.20201226.28386-PSO062-01_NIRES_20201226T075306.856.fits | OBJ0638-DET01 |               |         
+spec1d_NR.20201227.28711-PSO062-01_NIRES_20201227T075831.206.fits | OBJ0376-DET01 |               |         
+spec1d_NR.20201226.31780-PSO062-01_NIRES_20201226T084940.396.fits | OBJ0645-DET01 |               |         
+spec1d_NR.20201226.35166-PSO062-01_NIRES_20201226T094606.796.fits | OBJ0676-DET01 |               |         
+spec1d_NR.20201226.27964-PSO062-01_NIRES_20201226T074604.576.fits | OBJ0362-DET01 |               |         
+#spec1d_NR.20201226.27964-PSO062-01_NIRES_20201226T074604.576.fits | OBJ0781-DET01 |               |         
+#spec1d_NR.20201227.29133-PSO062-01_NIRES_20201227T080533.486.fits | OBJ0449-DET01 |               |         
+spec1d_NR.20201227.29133-PSO062-01_NIRES_20201227T080533.486.fits | OBJ0651-DET01 |               |         
+spec1d_NR.20201226.30080-PSO062-01_NIRES_20201226T082120.566.fits | OBJ0643-DET01 |               |         
+spec1d_NR.20201226.36485-PSO062-01_NIRES_20201226T100805.146.fits | OBJ0390-DET01 |               |         
+spec1d_NR.20201226.33053-PSO062-01_NIRES_20201226T091053.866.fits | OBJ0397-DET01 |               |         
+spec1d_NR.20201226.31357-PSO062-01_NIRES_20201226T084237.606.fits | OBJ0371-DET01 |               |         
+#spec1d_NR.20201226.31357-PSO062-01_NIRES_20201226T084237.606.fits | OBJ0789-DET01 |               |         
+spec1d_NR.20201226.29659-PSO062-01_NIRES_20201226T081419.306.fits | OBJ0366-DET01 |               |         
+spec1d_NR.20201226.34745-PSO062-01_NIRES_20201226T093905.026.fits | OBJ0402-DET01 |               |         
+spec1d_NR.20201226.33476-PSO062-01_NIRES_20201226T091756.656.fits | OBJ0679-DET01 |               |         
+coadd1d end
+

@@ -1,0 +1,38 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.12.3.dev235+g648f92808
+# UTC 2023-07-27T10:34:57.691
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = J1917+5003_NIRES_coadd.fits  # Please set your output file name
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+# For Echelle spectrographs, please double check the sensfunc file and setup id
+
+# Data block 
+coadd1d read
+ path Science
+                                                          filename |        obj_id |      sensfile | setup_id
+spec1d_NR.20200907.22139-J1917+5003_NIRES_20200907T060859.606.fits | OBJ0378-DET01 | ../sens_s190519_0059-GD153_NIRES_20190519T083811.995.fits |        A
+spec1d_NR.20200907.23835-J1917+5003_NIRES_20200907T063715.356.fits | OBJ0369-DET01 |               |         
+#spec1d_NR.20191111.19011-J1917+5003_NIRES_20191111T051651.318.fits | OBJ0442-DET01 |               |         
+spec1d_NR.20191111.19011-J1917+5003_NIRES_20191111T051651.318.fits | OBJ0660-DET01 |               |         
+spec1d_NR.20200907.31255-J1917+5003_NIRES_20200907T084055.346.fits | OBJ0659-DET01 |               |         
+spec1d_NR.20200907.34219-J1917+5003_NIRES_20200907T093019.976.fits | OBJ0387-DET01 |               |         
+spec1d_NR.20200907.24257-J1917+5003_NIRES_20200907T064417.636.fits | OBJ0654-DET01 |               |         
+#spec1d_NR.20200907.32953-J1917+5003_NIRES_20200907T090913.646.fits | OBJ0457-DET01 |               |         
+spec1d_NR.20200907.32953-J1917+5003_NIRES_20200907T090913.646.fits | OBJ0662-DET01 |               |         
+spec1d_NR.20200907.30833-J1917+5003_NIRES_20200907T083353.066.fits | OBJ0381-DET01 |               |         
+spec1d_NR.20191111.18668-J1917+5003_NIRES_20191111T051108.598.fits | OBJ0317-DET01 |               |         
+spec1d_NR.20200907.32526-J1917+5003_NIRES_20200907T090206.776.fits | OBJ0386-DET01 |               |         
+spec1d_NR.20200907.27692-J1917+5003_NIRES_20200907T074132.486.fits | OBJ0651-DET01 |               |         
+spec1d_NR.20200907.34642-J1917+5003_NIRES_20200907T093722.256.fits | OBJ0667-DET01 |               |         
+spec1d_NR.20200907.22561-J1917+5003_NIRES_20200907T061601.376.fits | OBJ0652-DET01 |               |         
+spec1d_NR.20200907.20426-J1917+5003_NIRES_20200907T054026.006.fits | OBJ0373-DET01 |               |         
+#spec1d_NR.20200907.20426-J1917+5003_NIRES_20200907T054026.006.fits | OBJ0782-DET01 |               |         
+spec1d_NR.20200907.27270-J1917+5003_NIRES_20200907T073430.206.fits | OBJ0374-DET01 |               |         
+spec1d_NR.20200907.25540-J1917+5003_NIRES_20200907T070540.796.fits | OBJ0374-DET01 |               |         
+spec1d_NR.20200907.25962-J1917+5003_NIRES_20200907T071242.566.fits | OBJ0648-DET01 |               |         
+spec1d_NR.20200907.20848-J1917+5003_NIRES_20200907T054728.796.fits | OBJ0649-DET01 |               |         
+coadd1d end
+
