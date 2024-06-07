@@ -1,0 +1,39 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.11.1.dev425+gf50c8e9e6
+# UTC 2023-02-06T15:32:14.319
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_nir
+[reduce]
+    [[findobj]]
+        snr_thresh = 2.0
+        find_trim_edge = 5,5
+        ech_find_max_snr = -1000
+        ech_find_min_snr = -1000
+        ech_find_nabove_min_snr = 0
+
+# Setup
+setup read
+Setup C:
+  arm: NIR
+setup end
+
+# Data block 
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/vlt_xshooter/J1110-1329_all
+                          filename |       frametype |         ra |       dec |        target | dispname |  decker | binning |            mjd | airmass | exptime | arm |    dither | calib | comb_id | bkg_id
+XSHOO.2023-01-28T00:26:15.011.fits |        standard |  88.115379 |   15.8853 |      STD,FLUX |  default |  5.0x11 |     1,1 | 59972.01822929 |   1.476 |   200.0 | NIR |       2.5 |     2 |       1 |      2
+XSHOO.2023-01-28T00:39:09.216.fits |        standard |  88.116159 |  15.88647 |      STD,FLUX |  default |  5.0x11 |     1,1 |    59972.02719 |   1.434 |   200.0 | NIR |      -2.5 |     2 |       2 |      1
+XSHOO.2023-01-29T05:39:05.529.fits |tilt,arc,science | 167.641441 | -13.49614 |     PSO167-13 |  default |  0.9x11 |     1,1 | 59973.23548066 |   1.115 |   300.0 | NIR |  2.256998 |     2 |      49 |     50
+XSHOO.2023-01-29T05:44:58.239.fits |tilt,arc,science | 167.642597 | -13.49671 |     PSO167-13 |  default |  0.9x11 |     1,1 | 59973.23956295 |   1.103 |   300.0 | NIR | -2.282911 |     2 |      50 |     49
+XSHOO.2023-01-29T10:14:30.117.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42673747 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+XSHOO.2023-01-29T10:14:46.877.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42693145 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+XSHOO.2023-01-29T10:15:02.942.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42711739 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+XSHOO.2023-01-29T10:15:19.703.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42731138 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+XSHOO.2023-01-29T10:15:35.770.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42749734 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+XSHOO.2023-01-29T10:15:51.142.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42767525 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+XSHOO.2023-01-29T10:16:07.209.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42786122 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+XSHOO.2023-01-29T10:16:23.968.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42805519 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+XSHOO.2023-01-29T10:16:40.033.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42824112 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+XSHOO.2023-01-29T10:16:55.408.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59973.42841907 |    None |    8.32 | NIR |      None |     2 |      -1 |     -1
+data end

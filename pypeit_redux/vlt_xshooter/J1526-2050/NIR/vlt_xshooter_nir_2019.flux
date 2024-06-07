@@ -1,0 +1,36 @@
+# Auto-generated Flux input file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# UTC 2023-01-07T17:15:55.379
+
+# User-defined execution parameters
+[fluxcalib]
+  extinct_correct = False  # Set to True if your SENSFUNC derived with the UVIS algorithm
+# Please add your SENSFUNC file name below before running pypeit_flux_calib
+
+# Data block 
+flux read
+ path Science/
+                                                                             filename | sensfile
+spec1d_XSHOO.2019-05-31T04:18:36.140-PSOJ231m20_XShooter_NIR_20190531T041836.140.fits | ../sens_XSHOO.2019-12-21T00:49:31.691-STD_FLUX_XShooter_NIR_20191221T004931.691.fits        
+spec1d_XSHOO.2019-05-31T04:39:23.345-PSOJ231m20_XShooter_NIR_20190531T043923.345.fits |         
+spec1d_XSHOO.2019-05-31T05:00:03.235-PSOJ231m20_XShooter_NIR_20190531T050003.235.fits |         
+spec1d_XSHOO.2019-05-31T05:20:49.775-PSOJ231m20_XShooter_NIR_20190531T052049.775.fits |         
+spec1d_XSHOO.2019-05-31T05:48:44.686-PSOJ231m20_XShooter_NIR_20190531T054844.686.fits |         
+spec1d_XSHOO.2019-05-31T06:09:29.898-PSOJ231m20_XShooter_NIR_20190531T060929.898.fits |         
+spec1d_XSHOO.2019-05-31T06:30:09.125-PSOJ231m20_XShooter_NIR_20190531T063009.125.fits |         
+spec1d_XSHOO.2019-05-31T06:50:59.655-PSOJ231m20_XShooter_NIR_20190531T065059.655.fits |         
+spec1d_XSHOO.2019-06-02T06:10:31.670-PSOJ231m20_XShooter_NIR_20190602T061031.670.fits |         
+spec1d_XSHOO.2019-06-02T06:31:20.873-PSOJ231m20_XShooter_NIR_20190602T063120.873.fits |         
+spec1d_XSHOO.2019-06-26T00:46:32.301-PSOJ231m20_XShooter_NIR_20190626T004632.301.fits |         
+spec1d_XSHOO.2019-06-26T01:07:18.177-PSOJ231m20_XShooter_NIR_20190626T010718.177.fits |         
+spec1d_XSHOO.2019-06-26T01:28:00.066-PSOJ231m20_XShooter_NIR_20190626T012800.066.fits |         
+spec1d_XSHOO.2019-06-26T01:48:46.608-PSOJ231m20_XShooter_NIR_20190626T014846.608.fits |         
+spec1d_XSHOO.2019-06-26T02:10:38.992-PSOJ231m20_XShooter_NIR_20190626T021038.992.fits |         
+spec1d_XSHOO.2019-06-26T02:31:26.198-PSOJ231m20_XShooter_NIR_20190626T023126.198.fits |         
+spec1d_XSHOO.2019-06-26T02:52:08.750-PSOJ231m20_XShooter_NIR_20190626T025208.750.fits |         
+spec1d_XSHOO.2019-06-26T03:12:55.958-PSOJ231m20_XShooter_NIR_20190626T031255.958.fits |         
+spec1d_XSHOO.2019-07-30T01:38:35.187-PSOJ231m20_XShooter_NIR_20190730T013835.187.fits |         
+spec1d_XSHOO.2019-07-30T01:59:23.059-PSOJ231m20_XShooter_NIR_20190730T015923.059.fits |         
+spec1d_XSHOO.2019-07-30T02:20:03.617-PSOJ231m20_XShooter_NIR_20190730T022003.617.fits |         
+spec1d_XSHOO.2019-07-30T02:40:50.825-PSOJ231m20_XShooter_NIR_20190730T024050.825.fits |         
+flux end
+

@@ -1,0 +1,25 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.11.1.dev425+gf50c8e9e6
+# UTC 2023-03-23T16:40:11.456
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = YOUR_OUTPUT_FILE_NAME  # Please set your output file name
+  sensfuncfile = YOUR_SENSFUNC_FILE  # Please set your SENSFUNC file name. Only required for Echelle
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+
+# Data block 
+coadd1d read
+ path Science/
+                                                                            filename |        obj_id
+spec1d_XSHOO.2023-03-06T01:37:35.552-PSO167-13_XShooter_VIS_20230306T013735.552.fits | OBJ0763-DET01
+spec1d_XSHOO.2023-03-06T01:43:30.991-PSO167-13_XShooter_VIS_20230306T014330.991.fits | OBJ0253-DET01
+spec1d_XSHOO.2023-03-06T01:49:22.179-PSO167-13_XShooter_VIS_20230306T014922.180.fits | OBJ0229-DET01
+spec1d_XSHOO.2023-03-06T01:55:16.899-PSO167-13_XShooter_VIS_20230306T015516.899.fits | OBJ0747-DET01
+spec1d_XSHOO.2023-03-06T02:01:07.507-PSO167-13_XShooter_VIS_20230306T020107.507.fits | OBJ0733-DET01
+spec1d_XSHOO.2023-03-06T02:07:03.857-PSO167-13_XShooter_VIS_20230306T020703.857.fits | OBJ0843-DET01
+spec1d_XSHOO.2023-03-06T02:12:59.266-PSO167-13_XShooter_VIS_20230306T021259.266.fits | OBJ0808-DET01
+spec1d_XSHOO.2023-03-06T02:18:53.865-PSO167-13_XShooter_VIS_20230306T021853.865.fits | OBJ0782-DET01
+coadd1d end
+

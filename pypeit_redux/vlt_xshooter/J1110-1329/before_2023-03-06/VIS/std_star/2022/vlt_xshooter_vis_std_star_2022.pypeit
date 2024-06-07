@@ -1,0 +1,38 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.11.1.dev425+gf50c8e9e6
+# UTC 2023-02-07T15:14:59.131
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_vis
+[reduce]
+    [[findobj]]
+        snr_thresh = 3.0
+        find_trim_edge = 5,5
+        ech_find_max_snr = -1000
+        ech_find_min_snr = -1000
+        ech_find_nabove_min_snr = 0
+
+# Setup
+setup read
+Setup A:
+  arm: VIS
+setup end
+
+# Data block 
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/vlt_xshooter/J1110-1329_all
+                          filename |                 frametype |         ra |       dec |        target | dispname |   decker | binning |             mjd | airmass | exptime | arm |    dither | calib |
+XSHOO.2022-03-13T00:23:20.512.fits |                  standard | 130.376386 | -32.93427 |      STD,FLUX |  default |   5.0x11 |     1,1 | 59651.016209626 |   1.086 |   240.0 | VIS |       2.5 |     1 |
+XSHOO.2022-03-13T00:29:10.581.fits |                  standard | 130.377992 | -32.93461 |      STD,FLUX |  default |   5.0x11 |     1,1 | 59651.020261348 |   1.077 |   240.0 | VIS |      -2.5 |     1 |
+XSHOO.2022-03-13T10:50:33.977.fits |                      bias |       None |      None |          BIAS |  default |   0.7x11 |     1,1 | 59651.451782141 |    None |     0.0 | VIS |      None |     1 |
+XSHOO.2022-03-13T10:53:23.400.fits |                      bias |       None |      None |          BIAS |  default |   0.7x11 |     1,1 | 59651.453743063 |    None |     0.0 | VIS |      None |     1 |
+XSHOO.2022-03-13T10:56:12.644.fits |                      bias |       None |      None |          BIAS |  default |   0.7x11 |     1,1 | 59651.455701903 |    None |     0.0 | VIS |      None |     1 |
+XSHOO.2022-03-13T10:59:01.208.fits |                      bias |       None |      None |          BIAS |  default |   0.7x11 |     1,1 | 59651.457652872 |    None |     0.0 | VIS |      None |     1 |
+XSHOO.2022-03-13T11:01:49.992.fits |                      bias |       None |      None |          BIAS |  default |   0.7x11 |     1,1 | 59651.459606386 |    None |     0.0 | VIS |      None |     1 |
+XSHOO.2022-03-13T12:28:25.913.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   0.9x11 |     1,1 | 59651.519744357 |    None |  10.268 | VIS |      None |     1 |
+XSHOO.2022-03-13T12:30:14.302.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   0.9x11 |     1,1 | 59651.520998859 |    None |  10.268 | VIS |      None |     1 |
+XSHOO.2022-03-13T12:32:01.940.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   0.9x11 |     1,1 | 59651.522244676 |    None |  10.268 | VIS |      None |     1 |
+XSHOO.2022-03-13T12:33:50.259.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   0.9x11 |     1,1 | 59651.523498365 |    None |  10.268 | VIS |      None |     1 |
+XSHOO.2022-03-13T12:35:38.708.fits | pixelflat,illumflat,trace |       None |      None |     LAMP,FLAT |  default |   0.9x11 |     1,1 |  59651.52475356 |    None |  10.268 | VIS |      None |     1 |
+XSHOO.2022-03-14T17:28:27.851.fits |                  arc,tilt |       None |      None |     LAMP,WAVE |  default |   1.5x11 |     1,1 | 59652.728100128 |    None |     2.0 | VIS |      None |     1 |
+data end

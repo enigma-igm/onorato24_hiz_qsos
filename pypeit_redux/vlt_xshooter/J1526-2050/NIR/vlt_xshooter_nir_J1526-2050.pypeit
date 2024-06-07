@@ -1,0 +1,145 @@
+# Auto-generated PypeIt input file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# UTC 2023-01-06T12:52:58.167
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = vlt_xshooter_nir
+[reduce]
+    [[findobj]]
+        snr_thresh = 3.0
+        find_trim_edge = 5,5
+        ech_find_max_snr = -1000
+        ech_find_min_snr = -1000
+        ech_find_nabove_min_snr = 0
+
+# Setup
+setup read
+Setup A:
+  arm: NIR
+setup end
+
+# Data block 
+data read
+ path /Users/silviaonorato/Projects/highz_qso_redux/highz_qso_redux/PypeIt_data/RAW_DATA/vlt_xshooter/J1526-2050
+                          filename |       frametype |         ra |       dec |        target | dispname |  decker | binning |            mjd | airmass | exptime | arm | dither | calib | comb_id | bkg_id
+XSHOO.2016-07-11T14:09:38.837.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 57580.59003284 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-11T14:09:56.984.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 57580.59024287 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-11T14:10:13.745.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 57580.59043686 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-11T14:10:31.198.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 57580.59063887 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-11T14:10:45.879.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 57580.59080878 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-11T14:11:03.333.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 |  57580.5910108 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-11T14:11:20.093.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 57580.59120478 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-11T14:11:38.933.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 57580.59142283 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-11T14:11:55.692.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 57580.59161681 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-11T14:12:13.840.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 57580.59182685 |    None |    8.32 | NIR |   None |     0 |      -1 |     -1
+XSHOO.2016-07-12T01:34:38.348.fits |tilt,arc,science | 231.657395 | -20.83285 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 57581.06572162 |    1.02 |  1200.0 | NIR |    2.5 |     0 |       0 |      1
+XSHOO.2016-07-12T01:55:23.563.fits |tilt,arc,science | 231.657393 | -20.83424 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 57581.08013383 |    1.04 |  1200.0 | NIR |   -2.5 |     0 |       1 |      0
+XSHOO.2019-05-30T12:41:11.091.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58633.52860059 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-30T12:41:33.397.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58633.52885876 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-30T12:41:54.316.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58633.52910088 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-30T12:42:16.624.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58633.52935907 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-30T12:42:37.543.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58633.52960119 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-30T12:42:59.849.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58633.52985936 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-30T12:43:18.691.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58633.53007744 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-30T12:43:40.996.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 |  58633.5303356 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-30T12:44:01.915.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58633.53057772 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-30T12:44:22.141.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58633.53081182 |    None |   12.48 | NIR |   None |     1 |      -1 |     -1
+XSHOO.2019-05-31T04:18:36.140.fits |tilt,arc,science | 231.658527 | -20.83348 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58634.17958495 |   1.017 |  1200.0 | NIR |    2.5 |     1 |       2 |      3
+XSHOO.2019-05-31T04:39:23.345.fits |tilt,arc,science | 231.657189 | -20.83288 |    PSOJ231m20 |  default |  0.6x11 |     1,1 |  58634.1940202 |   1.036 |  1200.0 | NIR |   -2.5 |     1 |       3 |      2
+XSHOO.2019-05-31T05:00:03.235.fits |tilt,arc,science | 231.657189 | -20.83288 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58634.20837077 |   1.062 |  1200.0 | NIR |   -2.5 |     1 |       4 |      5
+XSHOO.2019-05-31T05:20:49.775.fits |tilt,arc,science | 231.658527 | -20.83348 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58634.22279832 |   1.098 |  1200.0 | NIR |    2.5 |     1 |       5 |      4
+XSHOO.2019-05-31T05:48:44.686.fits |tilt,arc,science | 231.658501 |  -20.8333 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58634.24218387 |   1.164 |  1200.0 | NIR |    2.5 |     1 |       6 |      7
+XSHOO.2019-05-31T06:09:29.898.fits |tilt,arc,science | 231.657055 | -20.83298 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58634.25659604 |   1.229 |  1200.0 | NIR |   -2.5 |     1 |       7 |      6
+XSHOO.2019-05-31T06:30:09.125.fits |tilt,arc,science | 231.657055 | -20.83298 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58634.27093895 |   1.309 |  1200.0 | NIR |   -2.5 |     1 |       8 |      9
+XSHOO.2019-05-31T06:50:59.655.fits |tilt,arc,science | 231.658501 |  -20.8333 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58634.28541267 |   1.412 |  1200.0 | NIR |    2.5 |     1 |       9 |      8
+XSHOO.2019-06-01T11:48:38.205.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58635.49210885 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-01T11:49:01.203.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58635.49237504 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-01T11:49:22.126.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 |  58635.4926172 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-01T11:49:44.432.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58635.49287537 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-01T11:50:05.352.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 |  58635.4931175 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-01T11:50:27.658.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58635.49337567 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-01T11:50:48.577.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58635.49361779 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-01T11:51:10.191.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58635.49386795 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-01T11:51:31.110.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58635.49411007 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-01T11:51:53.416.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58635.49436824 |    None |   12.48 | NIR |   None |     2 |      -1 |     -1
+XSHOO.2019-06-02T06:10:31.670.fits |tilt,arc,science | 231.658679 |  -20.8333 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58636.25731099 |   1.261 |  1200.0 | NIR |    2.5 |     2 |      10 |     11
+XSHOO.2019-06-02T06:31:20.873.fits |tilt,arc,science | 231.657234 | -20.83298 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58636.27176936 |   1.351 |  1200.0 | NIR |   -2.5 |     2 |      11 |     10
+XSHOO.2019-06-25T09:54:34.224.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58659.41289611 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-25T09:54:55.837.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58659.41314626 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-25T09:55:16.063.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58659.41338036 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-25T09:55:36.983.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58659.41362249 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-25T09:55:57.904.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58659.41386463 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-25T09:56:18.825.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58659.41410677 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-25T09:56:39.050.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58659.41434086 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-25T09:57:01.359.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58659.41459906 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-25T09:57:21.584.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58659.41483315 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-25T09:57:42.506.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 |  58659.4150753 |    None |   12.48 | NIR |   None |     3 |      -1 |     -1
+XSHOO.2019-06-26T00:46:32.301.fits |tilt,arc,science | 231.657126 | -20.83399 |    PSOJ231m20 |  default |  0.6x11 |     1,1 |  58660.0323183 |    1.04 |  1200.0 | NIR |    2.5 |     3 |      12 |     13
+XSHOO.2019-06-26T01:07:18.177.fits |tilt,arc,science | 231.658558 | -20.83362 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58660.04673816 |    1.02 |  1200.0 | NIR |   -2.5 |     3 |      13 |     12
+XSHOO.2019-06-26T01:28:00.066.fits |tilt,arc,science | 231.658558 | -20.83362 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58660.06111187 |   1.008 |  1200.0 | NIR |   -2.5 |     3 |      14 |     15
+XSHOO.2019-06-26T01:48:46.608.fits |tilt,arc,science | 231.657126 | -20.83399 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58660.07553944 |   1.002 |  1200.0 | NIR |    2.5 |     3 |      15 |     14
+XSHOO.2019-06-26T02:10:38.992.fits |tilt,arc,science | 231.657126 | -20.83399 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58660.09072907 |   1.004 |  1200.0 | NIR |    2.5 |     3 |      16 |     17
+XSHOO.2019-06-26T02:31:26.198.fits |tilt,arc,science | 231.658558 | -20.83362 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58660.10516433 |   1.014 |  1200.0 | NIR |   -2.5 |     3 |      17 |     16
+XSHOO.2019-06-26T02:52:08.750.fits |tilt,arc,science | 231.658558 | -20.83362 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58660.11954572 |    1.03 |  1200.0 | NIR |   -2.5 |     3 |      18 |     19
+XSHOO.2019-06-26T03:12:55.958.fits |tilt,arc,science | 231.657126 | -20.83399 |    PSOJ231m20 |  default |  0.6x11 |     1,1 |   58660.133981 |   1.055 |  1200.0 | NIR |    2.5 |     3 |      19 |     18
+#XSHOO.2019-06-27T01:25:53.741.fits |tilt,arc,science |   231.6575 | -20.83412 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58661.05964978 |   1.007 |  1200.0 | NIR |    2.5 |     3 |      20 |     18
+XSHOO.2019-07-29T13:41:12.487.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58693.57028341 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-29T13:41:35.485.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 |  58693.5705496 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-29T13:41:56.405.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58693.57079172 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-29T13:42:18.711.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 |  58693.5710499 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-29T13:42:37.551.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58693.57126795 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-29T13:42:59.858.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58693.57152613 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-29T13:43:20.778.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58693.57176826 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-29T13:43:40.312.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58693.57199435 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-29T13:44:01.230.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58693.57223646 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-29T13:44:23.537.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58693.57249464 |    None |   12.48 | NIR |   None |     4 |      -1 |     -1
+XSHOO.2019-07-30T01:38:35.187.fits |tilt,arc,science | 231.657986 | -20.83415 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58694.06846281 |   1.128 |  1200.0 | NIR |    2.5 |     4 |      21 |     22
+XSHOO.2019-07-30T01:59:23.059.fits |tilt,arc,science | 231.657954 | -20.83276 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58694.08290577 |   1.183 |  1200.0 | NIR |   -2.5 |     4 |      22 |     21
+XSHOO.2019-07-30T02:20:03.617.fits |tilt,arc,science | 231.657954 | -20.83276 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58694.09726408 |   1.252 |  1200.0 | NIR |   -2.5 |     4 |      23 |     24
+XSHOO.2019-07-30T02:40:50.825.fits |tilt,arc,science | 231.657986 | -20.83415 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58694.11169936 |   1.339 |  1200.0 | NIR |    2.5 |     4 |      24 |     23
+XSHOO.2020-02-28T13:30:15.399.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56267823 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-28T13:30:37.706.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56293641 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-28T13:30:57.932.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56317051 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-28T13:31:18.858.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56341271 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-28T13:31:39.777.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56365483 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-28T13:32:00.698.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56389697 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-28T13:32:20.924.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56413107 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-28T13:32:42.539.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56438124 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-28T13:33:02.767.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56461536 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-28T13:33:23.685.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 58907.56485747 |    None |   12.48 | NIR |   None |     5 |      -1 |     -1
+XSHOO.2020-02-29T07:24:09.858.fits |tilt,arc,science | 231.657043 | -20.83416 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58908.30844743 |   1.158 |  1200.0 | NIR |    2.5 |     5 |      25 |     26
+XSHOO.2020-02-29T07:44:57.731.fits |tilt,arc,science |  231.65849 | -20.83384 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58908.32289041 |   1.109 |  1200.0 | NIR |   -2.5 |     5 |      26 |     25
+XSHOO.2020-02-29T08:05:37.624.fits |tilt,arc,science |  231.65849 | -20.83384 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58908.33724102 |    1.07 |  1200.0 | NIR |   -2.5 |     5 |      27 |     28
+XSHOO.2020-02-29T08:26:26.160.fits |tilt,arc,science | 231.657043 | -20.83416 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 58908.35169167 |   1.041 |  1200.0 | NIR |    2.5 |     5 |      28 |     27
+XSHOO.2021-03-11T00:27:02.436.fits |        standard |  88.116079 |  15.88566 |      STD,FLUX |  default |  5.0x11 |     1,1 |  59284.0187782 |   1.382 |   200.0 | NIR |    2.5 |     6 |      29 |     30
+XSHOO.2021-03-11T00:39:55.309.fits |        standard |  88.115574 |  15.88696 |      STD,FLUX |  default |  5.0x11 |     1,1 | 59284.02772348 |   1.412 |   200.0 | NIR |   -2.5 |     6 |      30 |     29
+XSHOO.2021-03-11T06:18:06.551.fits |tilt,arc,science | 231.657216 | -20.83415 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 59284.26257582 |   1.232 |  1200.0 | NIR |    2.5 |     6 |      31 |     32
+XSHOO.2021-03-11T06:38:52.428.fits |tilt,arc,science |  231.65866 | -20.83383 |    PSOJ231m20 |  default |  0.6x11 |     1,1 |  59284.2769957 |   1.167 |  1200.0 | NIR |   -2.5 |     6 |      32 |     31
+XSHOO.2021-03-11T06:59:33.652.fits |tilt,arc,science |  231.65866 | -20.83383 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 59284.29136171 |   1.115 |  1200.0 | NIR |   -2.5 |     6 |      33 |     34
+XSHOO.2021-03-11T07:20:23.520.fits |tilt,arc,science | 231.657216 | -20.83415 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 59284.30582778 |   1.075 |  1200.0 | NIR |    2.5 |     6 |      34 |     33
+XSHOO.2021-03-11T11:46:15.026.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49045169 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+XSHOO.2021-03-11T11:46:33.866.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49066975 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+XSHOO.2021-03-11T11:46:54.094.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49090386 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+XSHOO.2021-03-11T11:47:15.707.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49115402 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+XSHOO.2021-03-11T11:47:35.934.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49138812 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+XSHOO.2021-03-11T11:47:56.853.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49163024 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+XSHOO.2021-03-11T11:48:17.079.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49186434 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+XSHOO.2021-03-11T11:48:37.997.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49210645 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+XSHOO.2021-03-11T11:48:58.223.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49234054 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+XSHOO.2021-03-11T11:49:19.144.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.6x11 |     1,1 | 59284.49258268 |    None |   12.48 | NIR |   None |     6 |      -1 |     -1
+#XSHOO.2021-03-14T06:17:33.603.fits |tilt,arc,science | 231.657224 | -20.83412 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 59287.26219448 |   1.195 |  1200.0 | NIR |    2.5 |     7 |      39 |     36
+XSHOO.2021-03-18T06:54:13.616.fits |tilt,arc,science | 231.657215 | -20.83416 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 59291.28765759 |   1.073 |  1200.0 | NIR |    2.5 |     7 |      35 |     36
+XSHOO.2021-03-18T07:15:02.153.fits |tilt,arc,science | 231.658658 | -20.83382 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 59291.30210825 |   1.043 |  1200.0 | NIR |   -2.5 |     7 |      36 |     35
+XSHOO.2021-03-18T07:35:44.040.fits |tilt,arc,science | 231.658658 | -20.83382 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 59291.31648195 |   1.022 |  1200.0 | NIR |   -2.5 |     7 |      37 |     38
+XSHOO.2021-03-18T07:56:33.909.fits |tilt,arc,science | 231.657215 | -20.83416 |    PSOJ231m20 |  default |  0.6x11 |     1,1 | 59291.33094802 |   1.009 |  1200.0 | NIR |    2.5 |     7 |      38 |     37
+XSHOO.2021-03-18T13:22:07.625.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 |  59291.5570327 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+XSHOO.2021-03-18T13:22:25.078.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 |  59291.5572347 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+XSHOO.2021-03-18T13:22:41.838.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59291.55742868 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+XSHOO.2021-03-18T13:22:58.596.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59291.55762264 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+XSHOO.2021-03-18T13:23:14.664.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59291.55780861 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+XSHOO.2021-03-18T13:23:31.423.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59291.55800258 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+XSHOO.2021-03-18T13:23:47.489.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59291.55818853 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+XSHOO.2021-03-18T13:24:04.943.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59291.55839054 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+XSHOO.2021-03-18T13:24:18.930.fits | pixelflat,trace |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59291.55855243 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+XSHOO.2021-03-18T13:24:35.692.fits |            dark |       None |      None |     LAMP,FLAT |  default |  0.9x11 |     1,1 | 59291.55874643 |    None |    8.32 | NIR |   None |     7 |      -1 |     -1
+data end
