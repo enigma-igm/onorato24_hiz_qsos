@@ -1,0 +1,27 @@
+# Auto-generated Coadd1D input file using PypeIt version: 1.8.2.dev1+g0cb9c4cb4
+# UTC 2022-12-15T12:07:46.042
+
+# User-defined execution parameters
+[coadd1d]
+  coaddfile = J1129+1846_XShooter_NIR_coadd.fits  # Please set your output file name
+  sensfuncfile = sens_XSHOO.2019-12-21T00:49:31.691-STD_FLUX_XShooter_NIR_20191221T004931.691.fits  # Please set your SENSFUNC file name. Only required for Echelle
+  wave_method = velocity  # creates a uniformly space grid in log10(lambda)
+# This file includes all extracted objects. You need to figure out which object you want to 
+# coadd before running pypeit_coadd_1dspec!!!
+
+# Data block 
+coadd1d read
+ path ./
+                                                                                filename |        obj_id
+spec1d_XSHOO.2019-03-09T04:41:11.205-P172+18_star1_XShooter_NIR_20190309T044111.205.fits | OBJ0279-DET01
+spec1d_XSHOO.2019-03-09T05:01:57.748-P172+18_star1_XShooter_NIR_20190309T050157.748.fits | OBJ0743-DET01
+spec1d_XSHOO.2019-03-31T02:24:31.343-P172+18_star1_XShooter_NIR_20190331T022431.343.fits | OBJ0288-DET01
+spec1d_XSHOO.2019-03-31T02:45:17.221-P172+18_star1_XShooter_NIR_20190331T024517.221.fits | OBJ0747-DET01
+spec1d_XSHOO.2019-04-06T01:46:20.029-P172+18_star1_XShooter_NIR_20190406T014620.029.fits | OBJ0297-DET01
+spec1d_XSHOO.2019-04-06T02:07:05.241-P172+18_star1_XShooter_NIR_20190406T020705.241.fits | OBJ0746-DET01
+spec1d_XSHOO.2019-04-08T02:25:47.933-P172+18_star1_XShooter_NIR_20190408T022547.933.fits | OBJ0286-DET01
+spec1d_XSHOO.2019-04-08T02:46:35.142-P172+18_star1_XShooter_NIR_20190408T024635.142.fits | OBJ0749-DET01
+spec1d_XSHOO.2019-04-08T03:16:09.335-P172+18_star1_XShooter_NIR_20190408T031609.335.fits | OBJ0282-DET01
+spec1d_XSHOO.2019-04-08T03:36:57.206-P172+18_star1_XShooter_NIR_20190408T033657.206.fits | OBJ0752-DET01
+coadd1d end
+
