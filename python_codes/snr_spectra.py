@@ -150,39 +150,35 @@ mean_j_band = [float(value) for value in table_data['Mean (J-band)']]
 mean_h_band = [float(value) for value in table_data['Mean (H-band)']]
 mean_k_band = [float(value) for value in table_data['Mean (K-band)']]
 
-bins = np.arange(0, 312, 5) # 5 is the bin width
+bins = np.logspace(np.log10(min(mean_h_band)), np.log10(max(mean_k_band)), 25) # 25 bins from the minimum to the maximum value
 
 # Create figure and subplots
 fig, axs = plt.subplots(3, 1, figsize=(20, 27), sharex=True)
 
 # J-band histogram
 axs[0].hist(mean_j_band, bins=bins, edgecolor='black', alpha=0.5, color='navy', label='J-band', zorder=10)
-axs[0].axvline(np.mean(mean_j_band), color='red', linestyle='dashed', linewidth=3, label=r'Mean $\langle \rm{SNR_{J}} \rangle$= %.1f'%np.mean(mean_j_band))
-axs[0].axvline(np.median(mean_j_band), color='black', linestyle='dashed', linewidth=3, label=r'Median $\langle \rm{SNR_{J}} \rangle$= %.1f'%np.median(mean_j_band))
+axs[0].axvline(np.median(mean_j_band), color='red', linestyle='dashed', linewidth=5, label=r'Median $\langle \rm{SNR_{J}} \rangle$= %.1f'%np.median(mean_j_band))
 axs[0].set_ylabel(r'$\rm{N_{QSOs}}$', size=40)
 axs[0].legend(fontsize=40)
-axs[0].tick_params(direction='in', length=6, width=1, which='both', right=True, top=True, labelsize=28)
+axs[0].tick_params(direction='in', length=6, width=1, which='both', right=True, top=True, labelsize=30)
 
 # H-band histogram
 axs[1].hist(mean_h_band, bins=bins, edgecolor='black', alpha=0.5, color='forestgreen', label='H-band', zorder=5)
-axs[1].axvline(np.mean(mean_h_band), color='red', linestyle='dashed', linewidth=3, label=r'Mean $\langle \rm{SNR_{H}} \rangle$= %.1f'%np.mean(mean_h_band))
-axs[1].axvline(np.median(mean_h_band), color='black', linestyle='dashed', linewidth=3, label=r'Median $\langle \rm{SNR_{H}} \rangle$= %.1f'%np.median(mean_h_band))
+axs[1].axvline(np.median(mean_h_band), color='red', linestyle='dashed', linewidth=5, label=r'Median $\langle \rm{SNR_{H}} \rangle$= %.1f'%np.median(mean_h_band))
 axs[1].set_ylabel(r'$\rm{N_{QSOs}}$', size=40)
 axs[1].legend(fontsize=40)
-axs[1].tick_params(direction='in', length=6, width=1, which='both', right=True, top=True, labelsize=28)
+axs[1].tick_params(direction='in', length=6, width=1, which='both', right=True, top=True, labelsize=30)
 
 # K-band histogram
 axs[2].hist(mean_k_band, bins=bins, edgecolor='black', alpha=0.5, color='darkorange', label='K-band', zorder=2)
-axs[2].axvline(np.mean(mean_k_band), color='red', linestyle='dashed', linewidth=3, label=r'Mean $\langle \rm{SNR_{K}} \rangle$= %.1f'%np.mean(mean_k_band))
-axs[2].axvline(np.median(mean_k_band), color='black', linestyle='dashed', linewidth=3, label=r'Median $\langle \rm{SNR_{K}} \rangle$= %.1f'%np.median(mean_k_band))
+axs[2].axvline(np.median(mean_k_band), color='red', linestyle='dashed', linewidth=5, label=r'Median $\langle \rm{SNR_{K}} \rangle$= %.1f'%np.median(mean_k_band))
 
 # Make the x-axis logarithmic
 axs[2].set_xscale('log')
-
-axs[2].set_xlabel(r'$\langle \rm{SNR} \rangle$', size=40)
+axs[2].set_xlabel(r'$\langle \rm{SNR}_{\lambda} \rangle$', size=40)
 axs[2].set_ylabel(r'$\rm{N_{QSOs}}$', size=40)
 axs[2].legend(fontsize=40)
-axs[2].tick_params(direction='in', length=6, width=1, which='both', right=True, top=True, labelsize=28)
+axs[2].tick_params(direction='in', length=6, width=1, which='both', right=True, top=True, labelsize=30)
 
 plt.tight_layout()
 # plt.savefig('../../figures/SNR_comparison/all/histogram_SNR_mean_new_log.png', format='png', dpi=500)
